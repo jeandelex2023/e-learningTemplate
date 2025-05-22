@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color:#f5f5f5;
+    color: #111;
+    overflow-y: hidden;
+  }
+  
+  header {
+    background-color: #2d3cd4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    color: #ffffffaa;
+  }
+  
+  nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .login-btn,
+  .get-started-btn,
+  .cta-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .login-btn {
+    background-color: #ffffff22;
+    color: #fff;
+  }
+  
+  .get-started-btn {
+    background-color: #fff;
+    color: #2d3cd4;
+    font-weight: bold;
+  }
+  
+  .language-select {
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+  }
+  
+  .cta-btn {
+    background-color: #2d3cd4;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .image img {
+    /* max-width: 100%; */
+    width:600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .descriptionInfo
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+  }
+  .svg-container {
+    display: inline-block;
+    border: 2px solid blue; /* Border color here */
+    padding: 0px;
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+/* Section sign up and start learnint */
+.text-section {
+    max-width: 500px;
+  }
+.text-section h2 {
+    color: #222;
+  }
+
+  .text-section p, .text-section ul {
+    line-height: 1.2;
+  }
+.text-section ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+.text-section ul li {
+    margin-bottom: 8px;
+  }
+  ul li i {
+    margin-right: 8px; /* Adjust this value as needed */
+    vertical-align: middle; /* Optional: aligns icons better with text */
+  }
+.highlight {
+    font-weight: bold;
+    color: #d11a1a;
+  }
+  a {
+    color: #2a32d0;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }

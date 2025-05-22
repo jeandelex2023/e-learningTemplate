@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#0d2a9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .back {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .subtitle {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .option.selected {
+    background-color: #eaeaff;
+    border-color: #6b6bfa;
+  }
+  
+  .icon {
+    margin-right: 1rem;
+  }
+  
+  .google-signup {
+    margin-top: 1rem;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .continue {
+    margin-top: 1.5rem;
+    background-color: #2f2fcf;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .nav-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px; /* Optional: adds spacing from the edges */
+  }
+  .nav-left img {
+    max-width: 150px; /* Adjust this value as needed */
+    height: auto;
+  }
